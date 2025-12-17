@@ -1,6 +1,9 @@
 # Richie 'Rinehart' Club
 We present our central data-driven argument and thus 'call to arms': the status-quo is completely broken and needs disrupting. We present some introductory Data Science learning below, hopefully the power of the internet allows it to get to those that are less fortunate to get such _highly valued_ education. 
 
+> [!NOTE]
+> If you have any issue doing the following steps, please [let us know about your issue](https://github.com/TessellateDataScience/RichieRinehartClub/issues).
+
 ## Get started
 [Python](https://realpython.com/)-based environment leveraging computational & visualisation modules such as Scipy & Numpy, and Matplotlib. All wrapped-up and ready-to-roll using Docker:
 1. [Install Docker](https://docs.docker.com/get-started/)
