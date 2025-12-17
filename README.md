@@ -11,7 +11,9 @@ We present our central data-driven argument and thus 'call to arms': the status-
 3. Download the functioning environment for current [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/) notebook: `docker pull nchowlett/data-science:0.1`
 
 ## Run enviroment
-1. Start computational environment: `docker run -it -v "$(pwd):/home/jovyan/work" -p 8888:8888 nchowlett/data-science:0.1`
-2. Paste the 'localhost' URL into your web browser.
-3. Navigate to notebook via clicking on 'work' directory in left side.
-4. Shutdown environment: `Ctrl + c`
+1. Start Docker by launching the Docker Desktop app.
+2. Navigate to the directory containing the notebook (if needed).
+3. Start computational environment: `docker run -it -v "$(pwd):/home/jovyan/work" -p 8888:8888 nchowlett/data-science:0.1`
+4. Paste the 'localhost' URL into your web browser.
+5. Navigate to notebook via clicking on 'work' directory in left side.
+6. Shutdown environment: `Ctrl + c`
